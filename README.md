@@ -1,7 +1,7 @@
 # 2017IMBd_top100
 This is my first web scraping by R(using rvest), the reference link is:https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/
 
-I scrap the data for the most popular feature films of 2017 from the IMDb website,  Some problems are a little different from the original example
+I scrap the data for the most popular feature films of 2017 from the IMDb website,  Some problems are a little different with the original example
 
 1.  the rating,description and votes are missing for movies 12, 37, 49,54 and 69.
 2.  the directors scrap one more data(its length is 101)
