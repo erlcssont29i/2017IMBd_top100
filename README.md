@@ -3,8 +3,8 @@ This is my first web scraping by R(using rvest), the reference link is:https://w
 
 I scrap the data for the most popular feature films of 2017 from the IMDb website,  Some problems are a little different with the original example
 
-1.  the rating,description and votes are missing for movies 12, 37, 49,54 and 69.
-2.  the directors scrap one more data(its length is 101)
+1.  the rating, description and votes are missing for movies 12, 37, 49, 54 and 69.
+2.  the directors scrap one more data (its length is 101)
 
 ### scraping the following data from this website:
 1.  Rank: The rank of the film from 1 to 100 on the list of 100 most popular feature films released in 2017.
