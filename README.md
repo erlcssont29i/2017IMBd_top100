@@ -4,7 +4,7 @@ This is my first web crawler by R, the reference link is:https://www.analyticsvi
 This article is scrapping the data for the most popular feature films of 2016 from the IMDb website, while my data is 2017, the problems encountered are slightly different with the original example.
 
 I scraping the following data from this website:
-1.  Rank: The rank of the film from 1 to 100 on the list of 100 most popular feature films released in 2016.
+1.  Rank: The rank of the film from 1 to 100 on the list of 100 most popular feature films released in 2017.
 2.  Title: The title of the feature film.
 3.  Description: The description of the feature film.
 4.  Runtime: The duration of the feature film.
