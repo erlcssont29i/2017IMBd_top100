@@ -23,8 +23,8 @@ title_data <- html_text(title_data_html)
 #head(title_data)
 
 #------------------------
-#Step 7: 爬取剩余的数据– Description, Runtime, Genre, Rating, 
-#Metascore, Votes, Gross_Earning_in_Mil , Director and Actor data.
+#爬取剩余的数据– Description, Runtime, Genre, Rating, 
+#Votes , Director and Actor data.
 
 # 爬取描述
 description_data_html <- html_nodes(webpage,'.ratings-bar+ .text-muted')
@@ -147,7 +147,7 @@ actors_data <- html_text(actors_data_html)
 actors_data<-as.factor(actors_data)
 
 #-----数据合并前用length检查各变量长度，发现有些变量只有95个值（遇到缺失值），长度不同无法list，怎么补缺失值呢？-------------
-这个问题产生的原型是由5部电影没有ra数据。如果只是简单地用NA来填充这四个缺失值，它会自动填充第97到100部电影。
+#这个问题产生的原型是由5部电影没有数据。如果只是简单地用NA来填充这四个缺失值，它会自动填充第97到100部电影。
 #通过视觉检查，我们发缺失的是第12，37,49,54和69部电影。我用下面的函数来解决这个问题。
 
 
