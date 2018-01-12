@@ -1,4 +1,4 @@
-# 2017IMBd_top100
+# 2017IMDb_top100
 This is my first web scraping by R(using rvest), the reference link is:https://www.analyticsvidhya.com/blog/2017/03/beginners-guide-on-web-scraping-in-r-using-rvest-with-hands-on-knowledge/
 
 I scrap the data for the most popular feature films of 2017 from the IMDb website,  Some problems are a little different with the original example
